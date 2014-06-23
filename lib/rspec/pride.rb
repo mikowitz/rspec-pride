@@ -84,6 +84,5 @@ class PrideFormatter < RSpec::Core::Formatters::ProgressFormatter
       @index += 1
       "#{ESC}#{color}m#{string}#{NND}"
     end
-
   end
 end
